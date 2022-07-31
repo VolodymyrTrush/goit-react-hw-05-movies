@@ -1,6 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import {lazy, Suspense} from "react";
-import { Container, Header, Link } from "./App.styled";
+import { Container } from "./styles/Container.styled";
+import { Header } from "./styles/Header.styled";
+import { Link } from "./styles/Link.styled";
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
