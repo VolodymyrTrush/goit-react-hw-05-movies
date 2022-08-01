@@ -40,7 +40,11 @@ export const Button = styled.button`
   background-color: #fff;
   padding: 10px;
   border: 1px solid #ccc;
-    &:hover {
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color linear 250ms;
+  &:hover {
     background-color: green;
-    }
-  `;
+    color: white;
+  }
+`;

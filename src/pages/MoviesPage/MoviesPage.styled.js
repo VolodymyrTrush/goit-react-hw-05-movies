@@ -31,10 +31,12 @@ export const Button = styled.button`
 `;
 
 export const StyledLink = styled(NavLink)`
-    color: #000;
-    font-size: 1.2rem;
-    text-decoration: none;
-    &:hover {
-        color: orangered;
-    }
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  &:hover {
+    color: orangered;
+    color: white;
+  }
 `;
