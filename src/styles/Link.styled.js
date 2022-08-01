@@ -9,6 +9,6 @@ export const Link = styled(NavLink)`
   font-weight: 500;
   &.active {
     color: white;
-    background-color: orangered;
+    background-color: green;
   }
 `;

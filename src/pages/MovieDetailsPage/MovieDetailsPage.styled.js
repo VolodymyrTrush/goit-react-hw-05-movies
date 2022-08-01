@@ -41,5 +41,6 @@ export const Button = styled.button`
   padding: 10px;
   border: 1px solid #ccc;
     &:hover {
-    background-color: #orange;
+    background-color: green;
+    }
   `;
