@@ -1,3 +1,5 @@
 
-export const BASE_URL = 'https://pixabay.com/api/';
-export const API_KEY = '6b956d9320e8e098b01748da89295179';
+export const BASE_URL = 'https://api.themoviedb.org/3/';
+export const API_KEY = `ed13542cc98255e453f3d93d2dcaa225`;
+
+
