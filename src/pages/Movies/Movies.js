@@ -1,7 +1,7 @@
 import SearchForm from 'components/SearchForm';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { getFilmByQuery } from 'service/api';
+import { getFilmByQuery } from 'services/api';
 import FilmList from 'components/FilmList';
 import toast from 'react-hot-toast';
 

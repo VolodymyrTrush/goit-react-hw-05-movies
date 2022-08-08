@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getTrendingFilms } from 'service/api';
+import { getTrendingFilms } from 'services/api';
 
 export const useGetTrendingFilms = () => {
   const [trendingFilms, setTrendingFilms] = useState([]);

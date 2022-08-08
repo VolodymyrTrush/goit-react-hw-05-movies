@@ -5,11 +5,11 @@ import { Toaster } from 'react-hot-toast';
 import Layout from './components/Layout';
 import { Container } from './components/Container';
 
-const Home = lazy(() => import('views/Home'));
-const Movies = lazy(() => import('views/Movies'));
-const MovieDetails = lazy(() => import('views/MovieDetails'));
-const Cast = lazy(() => import('views/Cast'));
-const Reviews = lazy(() => import('views/Reviews'));
+const Home = lazy(() => import('pages/Home'));
+const Movies = lazy(() => import('pages/Movies'));
+const MovieDetails = lazy(() => import('pages/MovieDetails'));
+const Cast = lazy(() => import('pages/MovieDetails/Cast'));
+const Reviews = lazy(() => import('pages/MovieDetails/Reviews'));
 
 export const App = () => {
   return (

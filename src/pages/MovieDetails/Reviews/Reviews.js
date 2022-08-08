@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getFilmReviews } from 'service/api';
+import { getFilmReviews } from 'services/api';
 import { ReviewsList, ReviewsAuthor, ReviewsText } from './Reviews.styled';
-import { StyledErrorMessage } from 'views/Cast/Cast.styled';
+import { StyledErrorMessage } from 'pages/MovieDetails/Cast/Cast.styled';
 
 const Reviews = () => {
   const { movieId } = useParams();

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getFilmCast } from 'service/api';
+import { getFilmCast } from 'services/api';
 import CastListItem from 'components/CastListItem';
 import { CastList, StyledErrorMessage } from './Cast.styled';
 

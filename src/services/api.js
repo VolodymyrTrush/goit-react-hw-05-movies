@@ -1,5 +1,5 @@
 import axios from 'axios';
-import toast from 'react-hot-toast';
+import { toast } from 'react-toastify';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
 
@@ -63,3 +63,6 @@ export const getFilmByQuery = async query => {
     toast.error('Ups... Something went wrong :(');
   }
 };
+
+
+

@@ -1,6 +1,6 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useParams, Outlet, useLocation } from 'react-router-dom';
-import { getFilmById } from 'service/api';
+import { getFilmById } from 'services/api';
 import { Section } from 'components/Section';
 import {
   GoBackLink,
